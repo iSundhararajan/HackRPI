@@ -7,6 +7,10 @@ We are a group of students who believe that
 ## 💻 What it does
 
 Our web app "GreenWish" is built with features:
+- A user can buy items from other users.
+- A user sell their old items to other users.
+- A user can donate their old items to the charity.
+- Upload an image of the item to classify the item is recyclable or not.
 
 ## ⚙️ How we built it
 
@@ -17,7 +21,7 @@ Our web app "GreenWish" is built with features:
 
 ## 🌿 [MLH] Best Sustainability Hack sponsored by Avanade
 
-The application is very helpful for the environment. It is a great idea to upload image to detect the waste and then classify it and you can also sell the items that can be reused by others. The application is very easy to use and the UI is very good. It will help people to save their plants and also save the environment.
+The application is very helpful for the environment. It is a great idea to upload image to detect the the item is recyclable or not and you can also sell the items that can be reused by others. The application is very easy to use and the UI is very good. It will help people to save their plants and also save the environment.
 
 ## ☁️ Best Use of Google Cloud
 

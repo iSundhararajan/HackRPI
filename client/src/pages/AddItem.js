@@ -18,7 +18,7 @@ export default function AddItem() {
             <div className="grid place-items-center">
                 <div className="relative z-10 w-full max-w-lg my-20">
                     <div className="relative z-10 flex flex-col items-start justify-start p-10 bg-white shadow-2xl rounded-xl">
-                        <h4 className="w-full text-4xl font-medium leading-snug">Add Records</h4>
+                        <h4 className="w-full text-4xl font-medium leading-snug">Add Item</h4>
                         <form className="relative w-full mt-6 space-y-8">
                             <div className="relative">
                                 <label className="absolute px-2 ml-2 -mt-3 font-medium text-gray-600 bg-white">Name</label>
