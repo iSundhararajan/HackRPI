@@ -1,4 +1,4 @@
-HackRPI
+#GreenWish
 ## Inspiration
 We are a group of students who believe that 
 
@@ -6,9 +6,10 @@ We are a group of students who believe that
 
 
 ## How we built it
-Frontend:
-Backend: 
-User login/authentication: Google Firebase
+- UI design:
+- Frontend:
+- Backend: 
+- User login/authentication: Google Firebase
 
 ## Challenges we ran into
 - We had to brainstorm and come up with a feasible idea that was innovative and could be implemented within the given time frame.
