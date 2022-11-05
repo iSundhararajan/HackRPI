@@ -1,4 +1,4 @@
-#GreenWish
+## GreenWish
 ## Inspiration
 We are a group of students who believe that 
 
@@ -6,8 +6,8 @@ We are a group of students who believe that
 
 
 ## How we built it
-- UI design:
-- Frontend:
+- UI design: Figma
+- Frontend: React JS, Tailwind CSS
 - Backend: 
 - User login/authentication: Google Firebase
 
