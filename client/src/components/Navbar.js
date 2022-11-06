@@ -1,11 +1,49 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, NavLink } from 'react-router-dom'
 import { HiOutlineMenuAlt3, HiX } from "react-icons/hi";
 import LogoIng from '../assets/logo.svg'
+import { auth } from "../services/firebase";
+import { onAuthStateChanged, signOut } from "firebase/auth";
+import { toast } from "react-toastify";
 
 export default function Navbar() {
 
     const [showNavbar, setShowNavbar] = React.useState(false);
+    const [showMenu, setShowMenu] = React.useState(false);
+    const [displayName, setdisplayName] = React.useState("");
+    const navigate = useNavigate();
+
+    React.useEffect(() => {
+        onAuthStateChanged(auth, (user) => {
+          if (user) {
+            const uid = user.uid;
+            console.log(user.displayName);
+            setdisplayName(user.displayName);
+          } else {
+            setdisplayName("");
+          }
+        });
+      }, []);
+    
+      const toggleMenu = () => {
+        setShowMenu(!showMenu);
+      };
+    
+      const hideMenu = () => {
+        setShowMenu(false);
+      };
+    
+      const logoutUser = () => {
+        signOut(auth)
+          .then(() => {
+            toast.success("Logout successfully.");
+            navigate("/");
+          })
+          .catch((error) => {
+            toast.error(error.message);
+          });
+      };
+    
 
     return (
         <div >
@@ -98,9 +136,9 @@ export default function Navbar() {
                             <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Donate</span>
                         </Link>
 
-                        <button className='bg-[#FF0404] text-white py-2 px-8 rounded-md'>
+                        {/* <NavLink className='bg-[#FF0404] text-white py-2 px-8 rounded-md' to="/" onClick={logoutUser}>
                             Logout
-                        </button>
+                        </NavLink> */}
 
                     </div>
                 </div>
