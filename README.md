@@ -2,7 +2,7 @@
 
 ## 💡 Inspiration
 
-We are a group of students who believe that 
+We are a group of students who believe that saving and restoring the environment is very important as human intervention has caused extensive destruction in many ecosystems. In fact, every year, people dump a massive 2.12 billion tons of waste, and this is a huge contributor to climate change. The EPA estimates that 75% of the waste stream is recyclable (or at least reusable to some extent), but most people recycle less than 10% of it. This inspired us to create GreenWish, a web platform that efficiently allows users to sell/donate their old items as well as purchase items from other users. With this platform, we hope to bring people together for a common cause and help to make the world a cleaner place. 
 
 ## 💻 What it does
 
