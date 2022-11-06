@@ -57,6 +57,10 @@ export default function Navbar() {
                                             <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Recycle</span>
                                         </Link>
 
+                                        <Link to="/donate">
+                                            <span className="lg:inline-flex px-3 mx-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Donate</span>
+                                        </Link>
+
                                         <button className='bg-blue-600 text-white py-2 px-8 rounded-md ml-2'>
                                             Logout
                                         </button>
@@ -88,6 +92,10 @@ export default function Navbar() {
 
                         <Link to="/recycle">
                             <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Recycle</span>
+                        </Link>
+
+                        <Link to="/donate">
+                            <span className="lg:inline-flex lg:w-auto w-full px-3 py-2 rounded items-center justify-center dark:hover:bg-navHover hover:bg-secondary cursor-pointer text-white">Donate</span>
                         </Link>
 
                         <button className='bg-[#FF0404] text-white py-2 px-8 rounded-md'>

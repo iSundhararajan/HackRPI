@@ -1,4 +1,5 @@
 import React from 'react'
+import LogoImg from '../assets/logo.svg'
 
 export default function AddItem() {
 
@@ -11,7 +12,7 @@ export default function AddItem() {
     return (
         <div>
             <div className="grid place-items-center py-5">
-                <h1 className="text-5xl font-bold">Add Item</h1>
+                <div className="flex flex-row text-5xl font-bold text-[#246125]">Add Item <span><img src={LogoImg} width="50" height="50" alt="" /></span></div>
                 <div className='bg-blue-500 h-1 w-36 my-2 rounded-lg'></div>
             </div>
 
